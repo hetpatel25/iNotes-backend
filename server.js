@@ -25,6 +25,6 @@ app.get('/login', (req, res) => {
     res.send('Hello login!')
   })
   
-app.listen(port, () => {
+app.listen(port, "0.0.0.0", () => {
   console.log(`iNotebook backend listening on port ${port}`)
 })
